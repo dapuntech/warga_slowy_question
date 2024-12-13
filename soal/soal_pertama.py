@@ -27,13 +27,13 @@ def pengurangan(
 
 class SolveItSoalPertama(unittest.TestCase):
     # A -> B = A + B
-    hasil_A_ke_B_tambah = pertambahan(0, 0)
+    hasil_A_ke_B_tambah = pertambahan(2.1, 5.9)
     # A -> C = A x C
-    hasil_A_ke_C_kali = perkalian(0, 0)
+    hasil_A_ke_C_kali = perkalian(2.1, 10)
     # C -> D = C x D
-    hasil_C_ke_D_kali = perkalian(0, 0)
+    hasil_C_ke_D_kali = perkalian(10, 0.9)
     # B -> D = B - D
-    hasil_B_ke_D_kurang = pengurangan(0, 0)
+    hasil_B_ke_D_kurang = pengurangan(5.9, 0.9)
 
     def test_hasil_A_ke_B_tambah(self):
         self.assertEqual(self.hasil_A_ke_B_tambah, 8)
